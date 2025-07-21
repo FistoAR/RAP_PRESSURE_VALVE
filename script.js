@@ -245,7 +245,7 @@ function updateNavDisplay(current) {
   currentEl.className = "nav-item";
   currentEl.innerHTML = `
     <span class="sansation" id="currentNumber">${formatNumber(current)}</span>
-    <img src="../nav/page_no_container.svg" alt="page no container">
+    <img src="./nav/page_no_container.svg" alt="page no container">
   `;
   navCenter.appendChild(currentEl);
 
